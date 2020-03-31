@@ -1,2 +1,4 @@
 # Lyrics-Based-Song-Authorship-Attribution
-Lyrics-Based Song Authorship Attribution
+
+This project presents a novel approach for lyrics based authorship attribution by implementing convolutional neural network models with the aim of discovering linguistic feature patterns that are present in song lyrics to associate them with song authors. We assume that artists reflect a certain style of their own with lyrics, even in cases where they do not compose the lyrics themselves. In addition to the authorship classication task, we also try to use the same neural models to handle a sub-task of genre classication, in order to evaluate our work in comparison with several other works targeted at this specic music processing task. Our best authorship attribution model, that directly utilizes Part-of-Speech tags and indirectly makes use of lyrics dimension yield an accuracy score
+of 29.3% on a test set consisting of 456 different artist labels and 4560 different songs, whereas our best model devoted to genre classiffication performs with an overall accuracy score of 49.1% on the same test set with 10 distinct genre labels.
