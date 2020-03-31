@@ -1,4 +1,4 @@
-# start by feeding your Pickle functions to call and save pickle variables later on
+# start by feeding your Pickle functions to call and save pickle variables to be used later on
 
 import pickle
 def writePickle( Variable, fname):
